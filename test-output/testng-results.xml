@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98928" started-at="2018-11-09T10:32:43Z" finished-at="2018-11-09T10:34:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98928" started-at="2018-11-09T10:32:43Z" finished-at="2018-11-09T10:34:22Z">
+      <class name="com.crm.testscripts.AdminTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.crm.testscripts.AdminTests@305fd85d]" name="init" is-config="true" duration-ms="66442" started-at="2018-11-09T10:32:43Z" finished-at="2018-11-09T10:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createAccountsWithValidataData()[pri:0, instance:com.crm.testscripts.AdminTests@305fd85d]" name="createAccountsWithValidataData" duration-ms="27356" started-at="2018-11-09T10:33:49Z" description="create account with validate data" finished-at="2018-11-09T10:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountsWithValidataData -->
+        <test-method status="PASS" signature="editAccountWithValidData()[pri:0, instance:com.crm.testscripts.AdminTests@305fd85d]" name="editAccountWithValidData" duration-ms="4669" started-at="2018-11-09T10:34:17Z" description="Edit account with valid data" finished-at="2018-11-09T10:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAccountWithValidData -->
+        <test-method status="PASS" signature="removeCreateAccount()[pri:0, instance:com.crm.testscripts.AdminTests@305fd85d]" name="removeCreateAccount" duration-ms="386" started-at="2018-11-09T10:34:21Z" description="remove the created account" finished-at="2018-11-09T10:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCreateAccount -->
+      </class> <!-- com.crm.testscripts.AdminTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
